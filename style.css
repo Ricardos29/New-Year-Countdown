@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/new_years_eve_2.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: right;
+    color: white;
+    font-size: 4rem;
+    margin-top: 15rem;
+    margin-right: 5rem;
+}
+
+.countdown-container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    margin-right: 2.5rem;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
